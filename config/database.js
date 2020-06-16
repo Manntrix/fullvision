@@ -4,12 +4,12 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        host: env('DATABASE_HOST', '127.0.0.1'),
+        host: env('DATABASE_HOST', 'nodeserver.brainiuminfotech.com'),
         srv: env.bool('DATABASE_SRV', false),
         port: env.int('DATABASE_PORT', 27017),
         database: env('DATABASE_NAME', 'fullvision'),
-        username: env('DATABASE_USERNAME', ''),
-        password: env('DATABASE_PASSWORD', ''),
+        username: env('DATABASE_USERNAME', 'brain1uMMong0User'),
+        password: env('DATABASE_PASSWORD', 'PL5qnU9nuvX0pBa'),
       },
       options: {
         authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
