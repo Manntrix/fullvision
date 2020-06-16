@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_block_1_s",
+  "info": {
+    "name": "Block 1",
+    "icon": "expand-arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "buttonurl": {
+      "type": "string",
+      "required": true
+    },
+    "viewmore": {
+      "type": "string"
+    }
+  }
+}

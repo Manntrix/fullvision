@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"fullvision.cryptovisions"}],"uuid":"95ccd64a645245ba8c8a2c0f68d57a13"}

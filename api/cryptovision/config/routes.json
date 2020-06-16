@@ -1,0 +1,33 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cryptovision",
+      "handler": "cryptovision.find",
+      "config": {
+        "policies": []
+      }
+    },
+	{
+      "method": "POST",
+      "path": "/crypto",
+      "handler": "Crypto.index"
+    },
+    {
+      "method": "PUT",
+      "path": "/cryptovision",
+      "handler": "cryptovision.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cryptovision",
+      "handler": "cryptovision.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

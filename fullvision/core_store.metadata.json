@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"fullvision.core_store"}],"uuid":"6aefd4c93f8e4765888f99be786c2bab"}

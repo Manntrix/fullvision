@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_stayintouches",
+  "info": {
+    "name": "stayintouch",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "iconimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_homepage_blocks",
+  "info": {
+    "name": "Block 2",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "string"
+    },
+    "buttonurl": {
+      "type": "string",
+      "default": "#"
+    }
+  }
+}

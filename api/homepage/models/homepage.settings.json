@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "homepage.block-1",
+        "homepage.block"
+      ]
+    },
+    "singleblocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.block"
+    },
+    "stayintouch": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.stayintouch"
+    }
+  }
+}

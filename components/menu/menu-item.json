@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_menu_menu_items",
+  "info": {
+    "name": "Menu Item",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "unique": true
+    },
+    "Submenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.sub-menu"
+    }
+  }
+}
